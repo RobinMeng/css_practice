@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+
+    <style>
+        * {
+            padding: 0; 
+            margin: 0;
+        }
+        p{
+            color: red;
+            text-align: center;
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+            margin-left: 30px;
+        }
+
+        .border1 {
+            border-style: dashed;
+            border-width: 3px;
+            border-color: red;
+        }
+
+        .border2 {
+            border-style: groove;
+            border-width: thick;
+        }
+
+        .border3 {
+            border-style: solid;
+            border-width: thin;
+        }
+
+        .border4 {
+            border-style: dashed;
+            border-width: 2px 3px 4px 5px;
+            border-color: green;
+            border-bottom-style: double;
+        }
+
+         /* 简写 */
+        .border5 {
+            border: 3px red double
+        }
+        /* 圆角 */
+        .border6 {
+            border-radius: 10px;
+            border:1px red double;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p> 引用来自 </p>
+
+
+    <div class="border1">
+
+    </div>
+
+    <div class="border2">
+
+    </div>
+
+    <div class="border3">
+
+    </div>
+
+    <div class="border4">
+
+    </div>
+
+    <div class="border5">
+
+    </div>
+
+    <div class="border6">
+
+    </div>
+
+</body>
+
+</html>
